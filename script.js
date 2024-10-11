@@ -30,10 +30,7 @@ btnInc.addEventListener("click", () => {
 
   if (warning.style.display == "block" && count > -5) {
     warning.style.display = "none";
-    return;
   }
-
-  return;
 });
 
 btnDec.addEventListener("click", () => {
@@ -48,10 +45,7 @@ btnDec.addEventListener("click", () => {
 
   if (warning.style.display == "block" && count < 10) {
     warning.style.display = "none";
-    return;
   }
-
-  return;
 });
 
 // Update the counter element with the current count
@@ -64,4 +58,3 @@ if (count <= -5) {
   warning.textContent = "Число не может быть больше 10!";
   updateCount();
 }
-
